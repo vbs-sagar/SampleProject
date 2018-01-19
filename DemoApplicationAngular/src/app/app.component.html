@@ -1,0 +1,10 @@
+﻿<div>
+    <img src='https://angular.io/assets/images/logos/{{ImgURL}}' />
+    <h1>
+       {{GetFullName()}}
+    </h1>
+    <my-employee></my-employee>
+    <button [disabled] ="IsDisabled" >Click Me</button>
+    <span bind-innerHTML ="PageHeader"></span>
+    <div [innerHTML] = 'badHTML' ></div>
+</div> 
